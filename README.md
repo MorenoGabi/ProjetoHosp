@@ -1,15 +1,15 @@
-Este repositório contém uma interface desktop em Java Swing para gerenciar tabelas de um banco MySQL (pessoas, pacientes, profissionais) . O projeto segue a organização em pacotes com.meuprojeto.*
+Este repositório contém uma interface desktop em Java Swing para gerenciar tabelas de um banco MySQL (pessoas, pacientes, profissionais) . O projeto segue a organização em pacotes com.meuprojeto.
 e inclui um painel genérico (GenericTablePanel) que monta CRUD dinâmico para tabelas do banco, além de telas de login e principal.
 
 Abaixo há instruções para instalar, configurar, executar e observações importantes sobre o banco de dados e como as tabelas devem estar estruturadas para o aplicativo funcionar corretamente.
 
 **Requisitos**
 
-- Java JDK 11+ (recomendado JDK 17+). Você mencionou JDK 24 — funciona também, desde que compatível com sua IDE.
+- Java JDK 11+ (recomendado JDK 17+), JDK 24 (funciona também, desde que compatível com sua IDE).
 
 - MySQL (ex.: MySQL 5.7 / 8.x)
 
-- MySQL JDBC Driver (mysql-connector-java, por ex. mysql-connector-j-8.x.x.jar) — adicione ao classpath/projeto (IntelliJ: Project Structure → Libraries).
+- MySQL JDBC Driver (mysql-connector-java, por ex. mysql-connector-j-8.x.x.jar), adicione ao classpath/projeto (IntelliJ: Project Structure → Libraries).
 
 - IDE: IntelliJ IDEA (ou Eclipse) para rodar e debugar.
 
